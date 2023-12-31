@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Rukmini Giri</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rukmini Giri</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets\IMG_.png" alt="Rukmini profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Rukmini Giri</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./assets/Rukmini Resume.pdf')">Downlode
+                    CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/rukmini-giri-385839217/'">
+                <img src="./assets/github.png" alt="my Github profile" class="icon"
+                    onclick="location.href='https://Github.com'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <din class="section__pic-container">
+                <img src="./assets/IMG_11.jpeg" alt="profile pic" class="about-pic">
+            </din>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="exp icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2+ years <br> Frontend Developement</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>BCA Bachelors Degree<br>MCA Masters Degree</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am eager to start a career in web development and I am confident that I can make a significant
+                        contribution to your team. I am available for full-time, part-time, and remote work
+                        arrangements.</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>PHP</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>React js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Node JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Express JS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Git</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                            <div>
+                                <h3>Mangodb</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects-1.PNG" alt="Project 1" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rukminigiri3110/Calculator'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://rukminigiri3110.github.io/Calculator/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects-2.png" alt="Project 2" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rukminigiri3110/Weight_Converter'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://rukminigiri3110.github.io/Weight_Converter/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/projects-3.png" alt="Project 3" class="project-img" />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/rukminigiri3110/Game-Tic_Tac_Toe'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://rukminigiri3110.github.io/Game-Tic_Tac_Toe/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="email-icon" class="icon contact-icon"
+                    onclick="location.href='https:mailto:rukminigiri2@gmail.com'">
+                <p><a href="mailto:rukminigiri2@gmail.com"></a>rukminigiri2@gmail.com</p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="linkedin-icon" class="icon contact-icon .email-icon"
+                    onclick="location.href='https://www.linkedin.com/in/rukmini-giri-385839217/'">
+                <p><a href="https://www.linkedin.com/in/rukmini-giri-385839217/"></a>LinkedIn</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Rukmini Giri. All Right reserved.</p>
+    </footer>
+    <script src="scrept.js"></script>
+</body>
+
+</html>
